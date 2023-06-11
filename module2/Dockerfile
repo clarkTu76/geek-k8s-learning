@@ -9,5 +9,5 @@ ENV GO111MODULE=on \
 COPY httpServer httpServer
 
 EXPOSE 8088
-CMD ["httpServer"]
+ENTRYPOINT /httpserver
 
